@@ -65,6 +65,7 @@ btnStart.addEventListener('click', event => {
   inputDate.disabled = true;
   fp.config.defaultDate = new Date();
   let remainTime = new Date(userSelectedDate - fp.config.defaultDate);
+
   const intervalId = setInterval(() => {
     remainTime.setSeconds(remainTime.getSeconds() - 1);
     updateTime(convertMs(remainTime.getTime()));
