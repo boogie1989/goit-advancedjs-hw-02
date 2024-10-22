@@ -1,0 +1,1 @@
+input{width:272px}.timer{display:flex;gap:24px}.field{display:flex;flex-direction:column;justify-content:center;align-items:center}span.value{font-size:40px;line-height:1.2;letter-spacing:.04em}span.label{text-transform:uppercase}
